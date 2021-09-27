@@ -1,0 +1,15 @@
+﻿<Window x:Class="transporteVoto.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:transporteVoto"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="200" Width="200">
+    <Grid>
+        <Label x:Name="lblIdade" Content="Digite a idade:" HorizontalAlignment="Left" Margin="18,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtIdade" HorizontalAlignment="Left" Margin="18,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnVerificar" Content="Verificar Idade" HorizontalAlignment="Left" Margin="18,69,0,0" VerticalAlignment="Top" Width="120" Click="btnVerificar_Click"/>
+
+    </Grid>
+</Window>
